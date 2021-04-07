@@ -7,4 +7,4 @@ Design : Figma
 Development : HTML & CSS
 
 
-![Screenshot](GlassForm.jpg)
+![Screenshot](GlassForm.JPG)
