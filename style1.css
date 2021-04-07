@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background: url(mountains-landscape-minimalism-4k_1540755074.jpg); 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+   }
+.heading{
+    
+    position: absolute;
+width: 199px;
+height: 38px;
+left: 130px;
+top: 30px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 52px;
+line-height: 77px;
+
+color: #000305;
+
+opacity: 0.8;
+}
+
+#name{
+position: absolute;
+width: 350px;
+height: 48px;
+left: 42px;
+top: 160px;
+background: rgba(31, 87, 122, 0.4);
+border-radius: 20px;
+border: #000305;
+background-image:url(./account_circle_black_24dp\ \(2\).svg);
+  background-repeat:no-repeat;
+  background-position: 12px;
+  background-blend-mode: lighten;
+
+}
+
+#email{
+position: absolute;
+width: 350px;
+height: 48px;
+left: 42px;
+top: 225px;
+border: #000305;
+background: rgba(31, 87, 122, 0.4);
+border-radius: 20px;
+background-image:url(./email_black_24dp\ \(1\).svg);
+  background-repeat:no-repeat;
+  background-position: 12px;
+  background-blend-mode: lighten;
+}
+
+#phone{
+    position: absolute;
+    width: 350px;
+    height: 48px;
+left: 42px;
+top: 295px;
+
+background: rgba(31, 87, 122, 0.4);
+border-radius: 20px;
+border: #000305;
+background-image:url(./phone_black_24dp.svg);
+  background-repeat:no-repeat;
+  background-position: 12px;
+  background-blend-mode: lighten;
+
+}
+
+#subbtn
+{
+position: absolute;
+width: 160px;
+height: 56px;
+left: 136px;
+top: 440px;
+
+background: rgba(31, 87, 122, 0.9);
+border-radius: 70px;
+border: solid #000305;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card{
+    
+    width: 440px;
+    height: 620px;
+    position: fixed;
+  top: 52%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+    
+    background: linear-gradient(180deg, rgba(31, 87, 122, 0.5) 0%, rgba(220, 242, 253, 0.5) 100%);
+    backdrop-filter: blur(4px);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    border-radius: 71px;
+    border: #000305;
+}
+::placeholder {
+    position: fixed;
+    width: 400px;
+    height: 30px;
+    left: 52px;
+    top: 3px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 41px;
+    
+    color: #000000;
+    
+    opacity: 0.5;
+  }
+  input[type=submit]{
+    position: absolute;
+    width: 83px;
+    height: 47px;
+    left: 641px;
+    top: 576px;
+    
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 47px;
+    
+    color: #000000;
+    
+    opacity: 0.8;
+      cursor: pointer;
+  }
+
+  input[type=text],[type=tel]{
+    padding: 10px 15px 10px 52px;
+
+  }
+
+  #reset{
+    position: absolute;
+width: 72px;
+height: 24px;
+left: 184px;
+top: 520px;
+
+background: rgba(31, 87, 122, 0.9);
+border-radius: 70px;
+
+  }
+  input[type=reset]
+  {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+
+    border: #000000;
+    color: #000000;
+    
+    opacity: 0.8;
+      cursor: pointer;
+
+  }
+
